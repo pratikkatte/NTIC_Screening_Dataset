@@ -59,4 +59,4 @@ The images folder includes thermal images and labels folder includes .txt files 
   **`<file_number>_<NM (non_mask) or WM (with_mask)>_L<Lux intensity>.jpg`**
 - Labels folder consist of .txt files containing face annotations and mask labels of the corresponding images. 
 
-For any queries, contact at sivteja@niramai.com
+For any queries, contact at sivateja@niramai.com
