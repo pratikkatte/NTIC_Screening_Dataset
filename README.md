@@ -21,7 +21,7 @@ Niramai holds the ownership of this dataset and is opensourcing the NTIC Screeni
   1. Thermal Surveillance Dataset.
   2. Augmented Surveillance Dataset.
   3. Lighting Dataset
-  
+   
 ## Data Folder:
 
 **`Thermal Surveillance Dataset`** and **`Augmented Surveillance Dataset`**
@@ -38,9 +38,6 @@ Niramai holds the ownership of this dataset and is opensourcing the NTIC Screeni
 
 The images folder includes thermal images and labels folder includes .txt files containing face bounding boxes and mask labels of the corresponding images in YOLO format.
 
-
-
-
 **`Lighting Dataset:`**
 ```bash
 .
@@ -51,7 +48,8 @@ The images folder includes thermal images and labels folder includes .txt files 
     ├── images
     ├── labels    
 ```
-- The lighting dataset consist of both thermal images and their corresponding visual images of 25 participants with and without wearing mask captured in different lighting conditions.
+- The lighting dataset consist of both thermal images and their corresponding visual images of 25 participants with and without wearing mask captured in different lighting conditions. 
+- The thermal images in the lighting dataset are flir-radiometric images. To extract temperature values from the flir-radiometric thermal images, [flir tools](https://flir.custhelp.com/app/answers/detail/a_id/1284/~/flir-tools%2Ftools%2B---download-and-information) provided by FLIR systems can be used. Alternatively, the color bar and its limits can be used to convert the intensity values into temperature values.
 - For every subject, the dataset consists of images folder and labels folder.
 - Images folder consists of visual image and thermal images.
 - All the files in the images folder are named in the following format
