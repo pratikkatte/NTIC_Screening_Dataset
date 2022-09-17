@@ -41,12 +41,14 @@ The images folder includes thermal images and labels folder includes .txt files 
 **`Lighting Dataset:`**
 ```bash
 .
-└── Thermal Surveillance Dataset
-    ├── images
-    ├── labels
-└── Augmented Surveillance Dataset
-    ├── images
-    ├── labels    
+└── Lighting Datasaet
+    ├── 1
+        ├── images
+        ├── labels
+    ├── ....
+    ├──25
+        ├── images
+        ├── labels   
 ```
 - The lighting dataset consist of both thermal images and their corresponding visual images of 25 participants with and without wearing mask captured in different lighting conditions. 
 - **Temperature Extraction:** The thermal images in the lighting dataset are flir-radiometric images. To extract temperature values from the flir-radiometric thermal images, [flir tools](https://flir.custhelp.com/app/answers/detail/a_id/1284/~/flir-tools%2Ftools%2B---download-and-information) provided by FLIR systems can be used. Alternatively, the color bar and its limits can be used to convert the intensity values into temperature values.
